@@ -29,5 +29,23 @@ public class Exercicio3 {
             System.out.println();
             controleDiagonal--;
         }
+
+
+        System.out.println("=============================================");
+
+        String[][] matrizString = new String[tamanhoMatriz][tamanhoMatriz];
+
+        int controleDiagonal2 = tamanhoMatriz - 1;
+        for (int linha = 0; linha < matrizString.length; linha++) {
+            matrizString[linha][controleDiagonal2] = "1";
+            for (int coluna = 0; coluna < matrizString[linha].length; coluna++) {
+                if (matrizString[linha][coluna] != "1") {
+                    matrizString[linha][coluna] = "0";
+                }
+                System.out.print(matrizString[linha][coluna] + " ");
+            }
+            System.out.println();
+            controleDiagonal2--;
+        }
     }
 }
