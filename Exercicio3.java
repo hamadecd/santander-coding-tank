@@ -47,5 +47,6 @@ public class Exercicio3 {
             System.out.println();
             controleDiagonal2--;
         }
+        scan.close();
     }
 }

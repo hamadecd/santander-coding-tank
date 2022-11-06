@@ -88,6 +88,7 @@ public class Exercicio4 {
             }
             System.out.println();
         }
+        scanner.close();
         return matriz;
     }
 

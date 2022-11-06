@@ -1,5 +1,11 @@
 /**
  * Desenvolver um programa que deverá desenhar um triângulo conforme a figura abaixo.
+******
+*****
+****
+***
+**
+*
  * O programa deverá receber quantidade de linhas a serem impressas.
  */
 
@@ -16,6 +22,6 @@ public class Exercicio1 {
         for (int i = numeroDeLinhas; i > 0; i--) {
             System.out.println("*".repeat(i));
         }
-
+        scan.close();
     }
 }
